@@ -10,7 +10,7 @@ version: 1.2
 purpose: "Universal framework for evaluating any system that produces output through a process. Two tools, three readings."
 ---
 
-# COFE -- Multi-Agent Evaluation Framework
+# COFE -- Comprehension-First Evaluation Framework
 
 **C**omprehension . **O**peration . **F**idelity . **E**fficiency *(pronounced "coffee")*
 

@@ -77,7 +77,7 @@ If you use COFE in your work, please cite:
 
 ```
 Gonzales, B. (2026). COFE: Comprehension-Operation-Fidelity-Efficiency —
-A Framework for Evaluating AI Agent Systems. GitHub.
+Comprehension-First Evaluation Framework. GitHub.
 https://github.com/MasterTilt/cofe
 ```
 
