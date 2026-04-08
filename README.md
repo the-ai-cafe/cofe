@@ -17,7 +17,7 @@ Current AI agent evaluation frameworks share three structural gaps:
 
 1. **No pre-execution comprehension evaluation.** No surveyed framework evaluates whether the system understood the task before beginning work. The mechanism is proven -- G-Eval (Liu et al. 2023) demonstrates that structured reasoning before scoring improves evaluation quality. Nobody applies it to the systems being evaluated.
 
-2. **Output and system quality are conflated.** A lucky output from a broken system scores the same as a reliable output from a sound system. No framework structurally separates product quality from factory quality.
+2. **Output and system quality are conflated.** A lucky output from a broken system scores the same as a reliable output from a sound system. Most frameworks conflate product quality with factory quality, evaluating both in a single composite score.
 
 3. **No prior-art comparison requirement.** No framework requires checking what already exists before crediting what is new. Three frontier models independently praised novelty claims that collapsed when a human introduced prior art.
 
