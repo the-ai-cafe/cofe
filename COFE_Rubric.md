@@ -390,7 +390,7 @@ Same 1-5 scale across output, system, and reliability readings. Scores are direc
 - **Design philosophy section added:** Articulates why Comprehension is weighted highest, why output/system separation matters, why prior knowledge mapping breaks the evaluation loop.
 - **Human intervention rate scoring anchors added:** 1-5 scale distinguishing designed gates (system working) from unplanned corrections (system failing).
 
-**v1.1 (S366, 2026-04-07)** -- External critique pass (Gemini + DeepSeek) and internal calibration (op-365-002 retroapplication on pscale).
+**v1.1 (S366, 2026-04-07)** -- External critique pass (Gemini + DeepSeek) and internal calibration (op-365-002 retroapplication on an external system).
 
 - **Absence rule:** 1 = absent-in-scope (not 0), with N/A reserved for declared out-of-scope mechanisms protected by mandatory flags.
 - **Cell stage discipline:** each phase explicitly bound to one temporal stage (plan / execution / artifact).
@@ -422,4 +422,4 @@ Same 1-5 scale across output, system, and reliability readings. Scores are direc
 
 ---
 
-*COFE Evaluation Framework. v1.0 (S363) -> v1.1 (S366) -> v1.2 (S367). Designed within a 360+ session human-AI collaborative system. Validated on internal operations and one external evaluation (pscale, S365-366). The framework's rigor comes from building it while living inside the system it evaluates.*
+*COFE Evaluation Framework. v1.0 (S363) -> v1.1 (S366) -> v1.2 (S367). Designed within a 360+ session human-AI collaborative system. Validated on internal operations and one external evaluation (anonymized external system, S365-366). The framework's rigor comes from building it while living inside the system it evaluates.*
