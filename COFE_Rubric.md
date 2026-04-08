@@ -105,7 +105,7 @@ Evaluators may score 2 or 4 using judgment between anchors. The 1/3/5 anchors ar
 
 ### 2.2 Operation
 
-*Did execution match the plan and coordinate effectively?*
+*How well was the plan executed and coordinated?*
 
 | Sub-criterion | 1 (Active failure) | 3 (Adequate) | 5 (Strong) |
 |---|---|---|---|
@@ -130,7 +130,7 @@ Evaluators may score 2 or 4 using judgment between anchors. The 1/3/5 anchors ar
 
 ### 2.3 Fidelity
 
-*Is the artifact correct, complete, and usable against the world?*
+*How correct and usable is the output?*
 
 | Sub-criterion | 1 (Active failure) | 3 (Adequate) | 5 (Strong) |
 |---|---|---|---|
@@ -177,7 +177,7 @@ Comprehension, Operation, and Fidelity mechanism scores use this scale:
 
 ### 3.3 Comprehension -- System Mechanisms
 
-*Does the system have ways for agents to understand tasks before working?*
+*Can the system reliably understand tasks before working?*
 
 Ordered by dependency: legibility enables comprehension checks, which enable scope definition, which enables evidence mapping, which surfaces gaps.
 
@@ -193,7 +193,7 @@ System legibility is the precondition for all other Comprehension mechanisms. If
 
 ### 3.4 Operation -- System Mechanisms
 
-*Does the system have ways for agents to execute and coordinate?*
+*Can the system reliably execute and coordinate?*
 
 Ordered by execution flow: plan, then execute while enforcing scope and monitoring process, coordinating as you go, then verify delivery.
 
@@ -210,7 +210,7 @@ Scope enforcement and execution monitoring sit adjacent but ask different questi
 
 ### 3.5 Fidelity -- System Mechanisms
 
-*Does the system have ways to verify output correctness?*
+*Can the system reliably verify output correctness?*
 
 Ordered by verification flow: output checked before delivery, then specific checks (facts, reasoning), then cross-agent comparison.
 
@@ -225,7 +225,7 @@ Output verification is the umbrella gate. The system chooses its verification pa
 
 ### 3.6 Efficiency -- System Mechanisms
 
-*Is the system's cost proportional to its output value?*
+*Can the system reliably manage its resources?*
 
 Efficiency is scored separately as a cost layer -- reported alongside the composite, not weighted into it. No mechanisms are mandatory because efficiency is contextual: a high-cost system producing high-value output may be appropriately expensive.
 
