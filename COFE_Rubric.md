@@ -1,15 +1,3 @@
----
-domain: cofe
-tags: [spec, ai, methodology]
-keywords: [evaluation, rubric, scoring, multi-agent, comprehension, operation, fidelity, efficiency, reliability score, geometric mean, system evaluation, output evaluation]
-type: spec
-status: active
-created: 2026-04-05
-updated: 2026-04-07
-version: 1.3
-purpose: "Universal framework for evaluating any LLM process, prompt, or system. Two tools, three readings."
----
-
 # COFE: Comprehension-First Evaluation Framework
 
 **C**omprehension . **O**peration . **F**idelity . **E**fficiency *(pronounced "coffee")*

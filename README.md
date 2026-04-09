@@ -1,14 +1,3 @@
----
-type: note
-status: active
-domain: [meridian]
-decimal: [d.1.4]
-tags: [project/meridian, voice/meri]
-keywords: [readme]
-session:
-created: 2026-04-09
----
-
 # COFE: Comprehension-First Evaluation Framework
 
 *Pronounced "coffee."*
