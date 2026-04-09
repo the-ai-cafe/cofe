@@ -1,13 +1,3 @@
----
-type: note
-status: active
-domain: [meridian]
-decimal: [d.1.4]
-tags: [project/meridian, voice/meri]
-keywords: [deepseek, cofe, clear]
-session:
-created: 2026-04-09
----
 
 # COFE Meta-Evaluation — CLEAR Evaluation Framework
 

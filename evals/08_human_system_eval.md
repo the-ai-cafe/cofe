@@ -1,13 +1,3 @@
----
-type: note
-status: active
-domain: [meridian]
-decimal: [d.1.4]
-tags: [project/meridian, voice/meri]
-keywords: [human, eval, tilt, system]
-session:
-created: 2026-04-09
----
 
 # COFE System Evaluation — Verification Gates Design
 
