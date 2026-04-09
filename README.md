@@ -2,7 +2,7 @@
 
 *Pronounced "coffee."*
 
-An extensible framework for evaluating any LLM process, prompt, or system.
+An extensible framework for evaluating any LLM output, process, or system.
 
 ## What is COFE?
 
