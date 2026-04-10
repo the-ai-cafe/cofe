@@ -58,7 +58,7 @@ COFE has been validated through:
 
 ## The framework
 
-See [COFE_Rubric.md](COFE_Rubric.md) for the complete specification (v1.3.1).
+See [COFE_Rubric.md](COFE_Rubric.md) for the complete specification (v1.4).
 
 ## Status
 
@@ -69,6 +69,7 @@ COFE is under active development. A research paper is in preparation.
 - v1.2.1 (April 7, 2026) -- Full review: anchor recalibration, geometric mean within phases, five new mechanisms, efficiency scale, N/A rules
 - v1.3 (April 8, 2026) -- Prior knowledge and scope anchors sharpened for external context
 - v1.3.1 (April 8, 2026) -- Reliability Score changed to asymmetric weighting (Output^0.40 x System^0.60)
+- v1.4 (April 9, 2026) -- Evaluation Context requirements, task grasp recalibration, output eval restructured, design scope clarified
 
 ## License
 

@@ -1,3 +1,15 @@
+---
+domain: cofe
+tags: [spec, ai, methodology]
+keywords: [evaluation, rubric, scoring, multi-agent, comprehension, operation, fidelity, efficiency, reliability score, geometric mean, system evaluation, output evaluation]
+type: spec
+status: active
+created: 2026-04-05
+updated: 2026-04-07
+version: 1.4
+purpose: "Extensible universal framework for evaluating LLM outputs, processes, or systems."
+---
+
 # COFE: Comprehension-First Evaluation Framework
 
 **C**omprehension . **O**peration . **F**idelity . **E**fficiency
@@ -140,7 +152,7 @@ Evaluators may score 2 or 4 using judgment between anchors. The 1/3/5 anchors ar
 |---|---|---|---|
 | **Factual accuracy** | Stated falsehoods as facts | Mostly accurate, some unchecked claims | All facts checkable and correct |
 | **Reasoning quality** | Conclusions contradict the evidence presented | Most conclusions trace, some leaps | Every conclusion traces to cited evidence |
-| **Confidence calibration** | Asserts without support, or hedges on well-supported claims | Level of assertion mostly matches support, some overclaiming or unnecessary hedging | Every assertion is proportional to its evidence. Strong claims are supported. Uncertain areas are flagged |
+| **Confidence calibration** | Asserts without support, or understates to the point of being unusable | Level of assertion mostly proportional to support, some overclaiming | Every assertion is proportional to its evidence. Strong claims are supported. Uncertain areas are flagged |
 | **Completeness** | Subset presented as the whole, or delivered components are hollow/placeholder | Covers most of what's needed, some components thin | Each delivered component is thorough enough for its purpose |
 | **Actionability** | Output misleads if acted upon | Usable with moderate rework | Directly actionable as-is |
 

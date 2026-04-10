@@ -1,31 +1,24 @@
 
 # COFE Evaluations
 
-Example evaluations using the COFE framework on the same target document, demonstrating inter-rater analysis across different evaluators.
+Evaluations organized by rubric version. Each version subfolder contains evaluations run against that version of the COFE rubric.
 
-## Target Document
+## Versions
 
-**Verification Gates Design Brief** — A system design document for a multi-layer verification architecture in an AI agent pipeline. The same document was evaluated by all evaluators using the same COFE rubric and prompt.
+### [v1.2/](v1.2/) — Initial inter-rater study (April 7, 2026)
 
-## Evaluations
+**Target:** Verification Gates Design Brief — a system design document for a multi-layer verification architecture in an AI agent pipeline. Same document evaluated by all evaluators using the same rubric and prompt.
 
-### Verification Gates Design Brief (same target, 7 evaluators)
-
-| # | Evaluator | Type | COFE Version | System Score | Label |
-|---|-----------|------|-------------|-------------|-------|
-| 1 | [Claude Opus 4.6](01_claude_opus_system_eval.md) | System (internal) | v1.2 | 4.34 | Strong |
-| 2 | [DeepSeek R1](02_deepseek_r1_system_eval.md) | System (external) | v1.2 | 4.00 | Strong |
-| 3 | [DeepSeek R1 v2](03_deepseek_r1_v2_system_eval.md) | System (external) | v1.2 | 4.68 | Excellent |
-| 4 | [Grok 3](04_grok3_system_eval.md) | System (external, self-eval) | v1.2 | 5.00 | Excellent |
-| 5 | [Gemini](05_gemini_system_eval.md) | Output + System (external) | v1.2 | 4.70 | Excellent |
-| 6 | [ChatGPT](06_chatgpt_system_eval.md) | System (external, limited context) | v1.2 | 3.88 | Strong |
-| 7 | [Human (system builder)](08_human_system_eval.md) | System (full operational context) | v1.2 | 3.76 | Strong |
-
-### COFE-on-CLEAR (meta-evaluation — different target)
-
-| # | Evaluator | Type | COFE Version | Output / System / Reliability |
-|---|-----------|------|-------------|-------------------------------|
-| 7 | [DeepSeek R1](07_deepseek_r1_cofe_on_clear.md) | Meta-evaluation | v1.3.1 | 4.23 / 2.94 / 3.53 |
+| # | Evaluator | Type | System Score | Label |
+|---|-----------|------|-------------|-------|
+| 1 | [Claude Opus 4.6](v1.2/01_claude_opus_system_eval.md) | System (internal) | 4.34 | Strong |
+| 2 | [DeepSeek R1](v1.2/02_deepseek_r1_system_eval.md) | System (external) | 4.00 | Strong |
+| 3 | [DeepSeek R1 v2](v1.2/03_deepseek_r1_v2_system_eval.md) | System (external) | 4.68 | Excellent |
+| 4 | [Grok 3](v1.2/04_grok3_system_eval.md) | System (external, self-eval) | 5.00 | Excellent |
+| 5 | [Gemini](v1.2/05_gemini_system_eval.md) | Output + System (external) | 4.70 | Excellent |
+| 6 | [ChatGPT](v1.2/06_chatgpt_system_eval.md) | System (external, limited context) | 3.88 | Strong |
+| 7 | [Human (system builder)](v1.2/08_human_system_eval.md) | System (full operational context) | 3.76 | Strong |
+| 8 | [DeepSeek R1 — COFE-on-CLEAR](v1.2/07_deepseek_r1_cofe_on_clear.md) | Meta-evaluation (v1.3.1 rubric, different target) | 2.94 | Developing |
 
 ## Inter-Rater Findings
 
