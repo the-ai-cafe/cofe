@@ -53,7 +53,7 @@ COFE has been validated through:
 
 - **Internal application** across 370+ sessions in a collaborative human-AI system, including honest self-scoring showing where the system fails.
 - **External evaluation** of an independent AI agent system (anonymized), scoring 1.00/1.00/1.00 (Non-functional) -- revealing a 47-component architecture that does not deliver its stated capability.
-- **7-evaluator inter-rater study** (S369-370): Same prompt, same documents, seven evaluators (four frontier models, two human, one self-eval). Scores ranged 2.94-5.0, revealing a monotonic gradient mapping to available context depth. COFE's own criteria diagnose where each evaluation diverges.
+- **7-evaluator inter-rater study** (S369-371): Same target document, same rubric, seven evaluators (five frontier models, one human system builder, one degenerate case). Scores ranged 3.76-5.0. The human operator scored lowest; model evaluators without operational context scored progressively higher. Monotonic gradient maps to available context depth.
 - **Cross-model evidence**: Three frontier models independently failed prior-art comparison on the same evaluation task, reversing their assessments only after human intervention. The failure is architectural, not model-specific.
 
 ## The framework

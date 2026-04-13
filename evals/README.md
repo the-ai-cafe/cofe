@@ -22,12 +22,12 @@ Evaluations organized by rubric version. Each version subfolder contains evaluat
 
 ## Inter-Rater Findings
 
-The 8-evaluator study (seven on the same target, one meta-evaluation on a different framework) revealed:
+Seven evaluators (#1-7) assessed the same target document. The eighth (#8) is a meta-evaluation of a different framework — included to demonstrate COFE's meta-evaluative capacity, not as part of the inter-rater study.
 
-- **Score gradient maps to available context.** Evaluators with more operational context scored lower (more accurate). Evaluators with only the design documents scored higher.
+- **Score gradient maps to available context.** The human system builder scored lowest (3.76). Model evaluators without operational context scored progressively higher. Monotonic gradient: more context → lower, more accurate scores.
 - **Execution monitoring is the convergent gap.** 4 of 7 evaluators scored Operation mechanism #3 (execution monitoring) at 2-3. The exception (Grok, score 5) conflated component existence with mechanism effectiveness.
 - **COFE evaluates evaluations.** The framework's own criteria diagnose where each evaluation diverges — making evaluator reasoning legible and auditable.
-- **Human evaluator scored lowest Efficiency (2.30) and second-lowest composite (3.76).** The system builder knows the verification works (he watches it catch errors) and knows cost management doesn't exist (he pays the token bills). This split is only available to the operator — and it's the strongest evidence that context depth drives evaluation accuracy.
+- **Human evaluator scored lowest composite (3.76) and lowest Efficiency (2.30).** The system builder knows the verification works (he watches it catch errors) and knows cost management doesn't exist (he pays the token bills). This split is only available to the operator — and it's the strongest evidence that context depth drives evaluation accuracy.
 
 ## How to Read These
 
